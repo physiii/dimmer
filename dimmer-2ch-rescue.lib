@@ -1,0 +1,141 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C_0.1uF-open-automation
+#
+DEF C_0.1uF-open-automation C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_0.1uF-open-automation" -325 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X8R1H104K080AB/445-8818-1-ND/3248223" 0 -250 50 H I C CNN
+F4 "CL10F104ZO8NNNC" 125 200 60 H I C CNN "Part Number"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_10nF-open-automation
+#
+DEF C_10nF-open-automation C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C_10nF-open-automation" -225 -100 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
+F3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA3E1X7R1C105M080AC/445-12540-1-ND/3954206" 0 -250 50 H I C CNN
+F4 "CL10B105KP8NNNC" 125 200 60 H I C CNN "Part Number"
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# H11AA1-open-automation
+#
+DEF H11AA1-open-automation U 0 40 Y Y 1 F N
+F0 "U" -160 250 50 H V C CNN
+F1 "H11AA1-open-automation" -210 -260 50 H V L CNN
+F2 "Package_DIP:DIP-4_W7.62mm" 0 -400 50 H I C CNN
+F3 "https://www.onsemi.com/pub/Collateral/H11AA4M-D.pdf" 50 -500 50 H I C CNN
+F4 " H11AA1SM" 0 350 50 H I C CNN "Part Number"
+$FPLIST
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+C -125 -100 5 1 1 0 N
+C -125 100 5 1 1 0 N
+S -200 200 200 -200 0 1 10 f
+P 2 1 1 10 -150 25 -100 25 N
+P 2 1 1 10 -75 -25 -25 -25 N
+P 3 1 1 20 100 75 100 -75 100 -75 N
+P 3 1 1 10 200 -100 175 -100 100 -25 N
+P 3 1 1 10 200 100 175 100 100 25 N
+P 4 1 1 10 -200 100 -125 100 -125 -100 -200 -100 N
+P 4 1 1 10 -125 -100 -50 -100 -50 100 -125 100 N
+P 4 1 1 10 -125 25 -150 -25 -100 -25 -125 25 N
+P 4 1 1 10 -50 -25 -75 25 -25 25 -50 -25 N
+P 5 1 1 10 5 -20 55 -20 40 -25 40 -15 55 -20 N
+P 5 1 1 10 5 20 55 20 40 15 40 25 55 20 N
+P 5 1 1 10 120 -65 140 -45 160 -85 120 -65 120 -65 F
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 4 300 -100 100 L 50 50 1 1 P
+X ~ 5 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_10k-open-automation
+#
+DEF R_10k-open-automation R 0 0 N Y 1 F N
+F0 "R" 0 0 50 V V C CNN
+F1 "R_10k-open-automation" -75 0 50 V V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
+F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-0710KL/311-10KGRCT-ND/729647" 80 0 50 V I C CNN
+F4 "MCT06030C1002FP500" 180 100 60 V I C CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 f
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_27-open-automation
+#
+DEF R_27-open-automation R 0 0 N Y 1 F N
+F0 "R" 0 0 50 V V C CNN
+F1 "R_27-open-automation" -75 0 50 H V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
+F3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ2R2V/P2.2GCT-ND/282413" 80 0 50 V I C CNN
+F4 "ERJ-3GEYJ2R2V" 180 100 60 V I C CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 f
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_470-open-automation
+#
+DEF R_470-open-automation R 0 0 N Y 1 F N
+F0 "R" 0 0 50 V V C CNN
+F1 "R_470-open-automation" -75 0 50 V V C CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" -70 0 50 V I C CNN
+F3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" 80 0 50 V I C CNN
+F4 "RC0603FR-07470RL" 180 100 60 V I C CNN "Part Number"
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 f
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

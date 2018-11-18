@@ -1,34 +1,32 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x04
+# Connector_Generic:Conn_01x03
 #
-DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-S -50 -195 0 -205 1 1 6 N
 S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
 S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
+S -50 150 50 -150 1 1 10 f
 X Pin_1 1 -200 100 150 R 50 50 1 1 P
 X Pin_2 2 -200 0 150 R 50 50 1 1 P
 X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x07
+# Connector_Generic:Conn_01x07
 #
-DEF Connector_Generic_Conn_01x07 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x07 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Generic_Conn_01x07" 0 -400 50 H V C CNN
+F1 "Connector_Generic:Conn_01x07" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -53,11 +51,11 @@ X Pin_7 7 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Q_TRIAC_A1A2G
+# Device:Q_TRIAC_A1A2G
 #
-DEF Device_Q_TRIAC_A1A2G D 0 0 Y Y 1 F N
+DEF Device:Q_TRIAC_A1A2G D 0 0 Y Y 1 F N
 F0 "D" 125 25 50 H V L CNN
-F1 "Device_Q_TRIAC_A1A2G" 125 -50 50 H V L CNN
+F1 "Device:Q_TRIAC_A1A2G" 125 -50 50 H V L CNN
 F2 "" 75 25 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 DRAW
@@ -72,11 +70,11 @@ X G 3 -150 -100 100 R 50 25 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Relay_SolidState_MOC3052M
+# Relay_SolidState:MOC3052M
 #
-DEF Relay_SolidState_MOC3052M U 0 40 Y Y 1 F N
+DEF Relay_SolidState:MOC3052M U 0 40 Y Y 1 F N
 F0 "U" -210 190 50 H V L CNN
-F1 "Relay_SolidState_MOC3052M" 0 200 50 H V L CNN
+F1 "Relay_SolidState:MOC3052M" 0 200 50 H V L CNN
 F2 "" -200 -200 50 H I L CIN
 F3 "" -25 0 50 H I L CNN
 ALIAS MOC3011M MOC3012M MOC3020M MOC3021M MOC3022M MOC3023M MOC3051M MOC3052M
@@ -110,11 +108,11 @@ X ~ 6 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sensor_Current_ACS712xLCTR-30A
+# Sensor_Current:ACS712xLCTR-30A
 #
-DEF Sensor_Current_ACS712xLCTR-30A U 0 20 Y Y 1 F N
+DEF Sensor_Current:ACS712xLCTR-30A U 0 20 Y Y 1 F N
 F0 "U" 100 450 50 H V L CNN
-F1 "Sensor_Current_ACS712xLCTR-30A" 100 350 50 H V L CNN
+F1 "Sensor_Current:ACS712xLCTR-30A" 100 350 50 H V L CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 100 -350 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 ALIAS ACS712xLCTR-20A ACS712xLCTR-30A ACS713xLCTR-20A ACS713xLCTR-30A ACS714xLCTR-05B ACS714xLCTR-20A ACS714xLCTR-30A ACS714xLCTR-50A ACS715xLCTR-20A ACS715xLCTR-30A ACS724xLCTR-05AB ACS724xLCTR-10AB ACS724xLCTR-10AU ACS724xLCTR-20AB ACS724xLCTR-20AU ACS724xLCTR-30AB ACS724xLCTR-30AU ACS724xLCTR-50AB ACS725xLCTR-10AU ACS725xLCTR-20AB ACS725xLCTR-20AU ACS725xLCTR-30AB ACS725xLCTR-30AU ACS725xLCTR-40AB ACS725xLCTR-50AB
@@ -134,11 +132,11 @@ X VCC 8 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# open-automation_C_0.1uF
+# dimmer-2ch-rescue:C_0.1uF-open-automation
 #
-DEF open-automation_C_0.1uF C 0 10 N Y 1 F N
+DEF dimmer-2ch-rescue:C_0.1uF-open-automation C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "open-automation_C_0.1uF" -325 -100 50 H V L CNN
+F1 "dimmer-2ch-rescue:C_0.1uF-open-automation" -325 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/tdk-corporation/C1608X8R1H104K080AB/445-8818-1-ND/3248223" 0 -250 50 H I C CNN
 F4 "CL10F104ZO8NNNC" 125 200 60 H I C CNN "Part Number"
@@ -157,11 +155,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# open-automation_C_10nF
+# dimmer-2ch-rescue:C_10nF-open-automation
 #
-DEF open-automation_C_10nF C 0 10 N Y 1 F N
+DEF dimmer-2ch-rescue:C_10nF-open-automation C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "open-automation_C_10nF" -225 -100 50 H V L CNN
+F1 "dimmer-2ch-rescue:C_10nF-open-automation" -225 -100 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" 100 300 50 H I C CNN
 F3 "https://www.digikey.com/product-detail/en/tdk-corporation/CGA3E1X7R1C105M080AC/445-12540-1-ND/3954206" 0 -250 50 H I C CNN
 F4 "CL10B105KP8NNNC" 125 200 60 H I C CNN "Part Number"
@@ -180,15 +178,14 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# open-automation_H11AA1
+# dimmer-2ch-rescue:H11AA1-open-automation
 #
-DEF open-automation_H11AA1 U 0 40 Y Y 1 F N
+DEF dimmer-2ch-rescue:H11AA1-open-automation U 0 40 Y Y 1 F N
 F0 "U" -160 250 50 H V C CNN
-F1 "open-automation_H11AA1" -210 -260 50 H V L CNN
+F1 "dimmer-2ch-rescue:H11AA1-open-automation" -210 -260 50 H V L CNN
 F2 "Package_DIP:DIP-4_W7.62mm" 0 -400 50 H I C CNN
 F3 "https://www.onsemi.com/pub/Collateral/H11AA4M-D.pdf" 50 -500 50 H I C CNN
 F4 " H11AA1SM" 0 350 50 H I C CNN "Part Number"
-ALIAS SFH620A-2 SFH620A-3 SFH620A-1X001 SFH620A-2X001 SFH620A-3X001
 $FPLIST
  DIP*W7.62mm*
 $ENDFPLIST
@@ -215,11 +212,11 @@ X ~ 5 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# open-automation_R_10k
+# dimmer-2ch-rescue:R_10k-open-automation
 #
-DEF open-automation_R_10k R 0 0 N Y 1 F N
+DEF dimmer-2ch-rescue:R_10k-open-automation R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
-F1 "open-automation_R_10k" -75 0 50 V V C CNN
+F1 "dimmer-2ch-rescue:R_10k-open-automation" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603JR-0710KL/311-10KGRCT-ND/729647" 80 0 50 V I C CNN
 F4 "MCT06030C1002FP500" 180 100 60 V I C CNN "Part Number"
@@ -234,11 +231,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# open-automation_R_27
+# dimmer-2ch-rescue:R_27-open-automation
 #
-DEF open-automation_R_27 R 0 0 N Y 1 F N
+DEF dimmer-2ch-rescue:R_27-open-automation R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
-F1 "open-automation_R_27" -75 0 50 H V C CNN
+F1 "dimmer-2ch-rescue:R_27-open-automation" -75 0 50 H V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad0.99x1.00mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ2R2V/P2.2GCT-ND/282413" 80 0 50 V I C CNN
 F4 "ERJ-3GEYJ2R2V" 180 100 60 V I C CNN "Part Number"
@@ -253,11 +250,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# open-automation_R_470
+# dimmer-2ch-rescue:R_470-open-automation
 #
-DEF open-automation_R_470 R 0 0 N Y 1 F N
+DEF dimmer-2ch-rescue:R_470-open-automation R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
-F1 "open-automation_R_470" -75 0 50 V V C CNN
+F1 "dimmer-2ch-rescue:R_470-open-automation" -75 0 50 V V C CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" -70 0 50 V I C CNN
 F3 "https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" 80 0 50 V I C CNN
 F4 "RC0603FR-07470RL" 180 100 60 V I C CNN "Part Number"
@@ -272,11 +269,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+LIBS:dimmer-2ch-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L open-automation:R_10k R?
+L dimmer-2ch-rescue:R_10k-open-automation R?
 U 1 1 5BF1128B
 P 6925 2925
 AR Path="/5BF0EF62/5BF1128B" Ref="R?"  Part="1" 
@@ -28,7 +29,7 @@ F 4 "MCT06030C1002FP500" V 7105 3025 60  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L open-automation:H11AA1 U?
+L dimmer-2ch-rescue:H11AA1-open-automation U?
 U 1 1 5BF18D83
 P 7475 3025
 AR Path="/5BF0EF62/5BF18D83" Ref="U?"  Part="1" 
@@ -44,7 +45,7 @@ $EndComp
 Wire Wire Line
 	7175 2925 7075 2925
 $Comp
-L open-automation:R_10k R?
+L dimmer-2ch-rescue:R_10k-open-automation R?
 U 1 1 5BF1A86E
 P 6925 3125
 AR Path="/5BF0EF62/5BF1A86E" Ref="R?"  Part="1" 
@@ -85,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3125 7775 3125
 $Comp
-L open-automation:R_10k R?
+L dimmer-2ch-rescue:R_10k-open-automation R?
 U 1 1 5BF1BEB8
 P 7825 2725
 AR Path="/5BF0EF62/5BF1BEB8" Ref="R?"  Part="1" 
@@ -108,7 +109,7 @@ Wire Wire Line
 	7875 2925 7825 2925
 Connection ~ 7825 2925
 $Comp
-L open-automation:R_10k R?
+L dimmer-2ch-rescue:R_10k-open-automation R?
 U 1 1 5BF1D45B
 P 8400 2000
 AR Path="/5BF0EF62/5BF1D45B" Ref="R?"  Part="1" 
@@ -122,7 +123,7 @@ F 4 "MCT06030C1002FP500" V 8580 2100 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L open-automation:R_10k R?
+L dimmer-2ch-rescue:R_10k-open-automation R?
 U 1 1 5BF1EB6A
 P 8400 2350
 AR Path="/5BF0EF62/5BF1EB6A" Ref="R?"  Part="1" 

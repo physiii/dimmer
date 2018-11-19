@@ -69,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	6775 3125 6725 3125
 $Comp
-L power:GND #PWR?
+L dimmer-2ch-rescue:GND-power #PWR?
 U 1 1 5BF1B461
 P 7800 3150
 AR Path="/5BF0EF62/5BF1B461" Ref="#PWR?"  Part="1" 
@@ -137,7 +137,7 @@ F 4 "MCT06030C1002FP500" V 8580 2450 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L dimmer-2ch-rescue:GND-power #PWR?
 U 1 1 5BF1F20C
 P 8400 2550
 AR Path="/5BF0EF62/5BF1F20C" Ref="#PWR?"  Part="1" 

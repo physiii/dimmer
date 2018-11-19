@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Current:ACS712xLCTR-30A U?
+L dimmer-2ch-rescue:ACS712xLCTR-30A-Sensor_Current U?
 U 1 1 5BF208D1
 P 5725 2350
 AR Path="/5BF207D3/5BF208D1" Ref="U?"  Part="1" 
@@ -31,7 +31,7 @@ F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L dimmer-2ch-rescue:GND-power #PWR?
 U 1 1 5BF2121D
 P 5725 2800
 AR Path="/5BF207D3/5BF2121D" Ref="#PWR?"  Part="1" 
@@ -70,7 +70,7 @@ Wire Wire Line
 Wire Wire Line
 	6175 2450 6175 2500
 $Comp
-L power:GND #PWR?
+L dimmer-2ch-rescue:GND-power #PWR?
 U 1 1 5BF22381
 P 6175 2850
 AR Path="/5BF207D3/5BF22381" Ref="#PWR?"  Part="1" 

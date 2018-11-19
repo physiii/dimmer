@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Relay_SolidState:MOC3052M U?
+L dimmer-2ch-rescue:MOC3052M-Relay_SolidState U?
 U 1 1 5BEFC71E
 P 4725 3350
 AR Path="/5BEFC71E" Ref="U?"  Part="1" 
@@ -51,7 +51,7 @@ F 4 "RC0603FR-07470RL" V 4405 3350 60  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L dimmer-2ch-rescue:GND-power #PWR?
 U 1 1 5BEFC72B
 P 4400 3475
 AR Path="/5BEFC72B" Ref="#PWR?"  Part="1" 
@@ -60,7 +60,7 @@ AR Path="/5BF1FE6C/5BEFC72B" Ref="#PWR?"  Part="1"
 AR Path="/5BF2697E/5BEFC72B" Ref="#PWR?"  Part="1" 
 AR Path="/5BF2C123/5BEFC72B" Ref="#PWR0104"  Part="1" 
 AR Path="/5BF337E5/5BEFC72B" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0104" H 4400 3225 50  0001 C CNN
+F 0 "#PWR0109" H 4400 3225 50  0001 C CNN
 F 1 "GND" H 4405 3302 50  0000 C CNN
 F 2 "" H 4400 3475 50  0001 C CNN
 F 3 "" H 4400 3475 50  0001 C CNN
@@ -78,7 +78,7 @@ DIGITAL_IN
 Wire Wire Line
 	4025 3250 4075 3250
 $Comp
-L Device:Q_TRIAC_A1A2G D?
+L dimmer-2ch-rescue:Q_TRIAC_A1A2G-Device D?
 U 1 1 5BF04A14
 P 5675 3350
 AR Path="/5BEFB7B0/5BF04A14" Ref="D?"  Part="1" 

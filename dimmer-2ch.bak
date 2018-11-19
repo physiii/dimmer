@@ -14,70 +14,45 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR0101
-U 1 1 5BF2A93F
-P 4000 3050
-F 0 "#PWR0101" H 4000 2800 50  0001 C CNN
-F 1 "GND" H 4075 2925 50  0000 C CNN
-F 2 "" H 4000 3050 50  0001 C CNN
-F 3 "" H 4000 3050 50  0001 C CNN
-	1    4000 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3050 4000 3025
-Wire Wire Line
-	4000 3025 3975 3025
-Text Label 4025 2925 0    50   ~ 0
+Text Label 9675 2425 2    50   ~ 0
 5V
 Wire Wire Line
-	3975 2925 4025 2925
-Text Label 6625 2425 2    50   ~ 0
-5V
-Wire Wire Line
-	6625 2425 6650 2425
+	9675 2425 9700 2425
 Text Label 5950 4775 2    50   ~ 0
 5V
 Wire Wire Line
 	5950 4775 5975 4775
 $Sheet
-S 6650 2350 725  400 
+S 9700 2350 725  400 
 U 5BF2BC14
 F0 "current sense 1" 50
 F1 "current_sense.sch" 50
-F2 "IN" I L 6650 2625 50 
-F3 "OUT" O R 7375 2625 50 
-F4 "ANALOG_OUT" O R 7375 2425 50 
-F5 "5V" I L 6650 2425 50 
+F2 "IN" I L 9700 2625 50 
+F3 "OUT" O R 10425 2625 50 
+F4 "ANALOG_OUT" O R 10425 2425 50 
+F5 "5V" I L 9700 2425 50 
 $EndSheet
 $Sheet
-S 5550 2350 625  450 
+S 8575 2350 625  450 
 U 5BF2C123
 F0 "triac 1" 50
 F1 "triac.sch" 50
-F2 "DIGITAL_IN" I L 5550 2450 50 
-F3 "OUT" O R 6175 2625 50 
-F4 "IN" I L 5550 2625 50 
+F2 "DIGITAL_IN" I L 8575 2450 50 
+F3 "OUT" O R 9200 2625 50 
+F4 "IN" I L 8575 2625 50 
 $EndSheet
-Wire Wire Line
-	6175 2625 6650 2625
-Text Label 7400 2625 0    50   ~ 0
+Text Label 10450 2625 0    50   ~ 0
 LINE_OUT_1
-Wire Wire Line
-	7400 2625 7375 2625
-Text Label 5525 2625 2    50   ~ 0
+Text Label 8550 2625 2    50   ~ 0
 LINE_IN
-Wire Wire Line
-	5525 2625 5550 2625
-Text Label 5525 2450 2    50   ~ 0
+Text Label 8550 2450 2    50   ~ 0
 TRIAC_1
 Wire Wire Line
-	5525 2450 5550 2450
-Text Label 7400 2425 0    50   ~ 0
+	8550 2450 8575 2450
+Text Label 10450 2425 0    50   ~ 0
 CURRENT_SENSE_1
 Wire Wire Line
-	7400 2425 7375 2425
+	10450 2425 10425 2425
 Text Label 4025 2725 0    50   ~ 0
 CURRENT_SENSE_1
 Wire Wire Line
@@ -120,17 +95,6 @@ Text Label 5925 5075 2    50   ~ 0
 NEUTRAL
 Wire Wire Line
 	5925 5075 5975 5075
-$Comp
-L Connector_Generic:Conn_01x07 J1
-U 1 1 5BF2F7D8
-P 3775 2725
-F 0 "J1" H 3693 2200 50  0000 C CNN
-F 1 "Conn_01x07" H 3693 2291 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3775 2725 50  0001 C CNN
-F 3 "~" H 3775 2725 50  0001 C CNN
-	1    3775 2725
-	-1   0    0    1   
-$EndComp
 Text Label 4025 2425 0    50   ~ 0
 ZEROCROSS
 Wire Wire Line
@@ -139,47 +103,41 @@ Text Label 6750 4875 0    50   ~ 0
 ZEROCROSS
 Wire Wire Line
 	6750 4875 6725 4875
-Text Label 6625 3550 2    50   ~ 0
+Text Label 9625 3550 2    50   ~ 0
 5V
 Wire Wire Line
-	6625 3550 6650 3550
+	9625 3550 9650 3550
 $Sheet
-S 6650 3475 725  400 
+S 9650 3475 725  400 
 U 5BF337E0
 F0 "current sense 2" 50
 F1 "current_sense.sch" 50
-F2 "IN" I L 6650 3750 50 
-F3 "OUT" O R 7375 3750 50 
-F4 "ANALOG_OUT" O R 7375 3550 50 
-F5 "5V" I L 6650 3550 50 
+F2 "IN" I L 9650 3750 50 
+F3 "OUT" O R 10375 3750 50 
+F4 "ANALOG_OUT" O R 10375 3550 50 
+F5 "5V" I L 9650 3550 50 
 $EndSheet
 $Sheet
-S 5550 3475 625  450 
+S 8600 3475 625  450 
 U 5BF337E5
 F0 "triac 2" 50
 F1 "triac.sch" 50
-F2 "DIGITAL_IN" I L 5550 3575 50 
-F3 "OUT" O R 6175 3750 50 
-F4 "IN" I L 5550 3750 50 
+F2 "DIGITAL_IN" I L 8600 3575 50 
+F3 "OUT" O R 9225 3750 50 
+F4 "IN" I L 8600 3750 50 
 $EndSheet
-Wire Wire Line
-	6175 3750 6650 3750
-Text Label 7400 3750 0    50   ~ 0
+Text Label 10400 3750 0    50   ~ 0
 LINE_OUT_2
-Wire Wire Line
-	7400 3750 7375 3750
-Text Label 5525 3750 2    50   ~ 0
+Text Label 8575 3750 2    50   ~ 0
 LINE_IN
+Text Label 8575 3575 2    50   ~ 0
+TRIAC_2
 Wire Wire Line
-	5525 3750 5550 3750
-Text Label 5525 3575 2    50   ~ 0
-TRIAC_1
+	8575 3575 8600 3575
+Text Label 10400 3550 0    50   ~ 0
+CURRENT_SENSE_2
 Wire Wire Line
-	5525 3575 5550 3575
-Text Label 7400 3550 0    50   ~ 0
-CURRENT_SENSE_1
-Wire Wire Line
-	7400 3550 7375 3550
+	10400 3550 10375 3550
 Text Label 4025 3725 0    50   ~ 0
 LINE_OUT_1
 Wire Wire Line
@@ -189,7 +147,7 @@ Wire Wire Line
 Text Label 4025 3925 0    50   ~ 0
 LINE_OUT_2
 $Comp
-L Connector_Generic:Conn_01x03 J2
+L dimmer-2ch-rescue:Conn_01x03-Connector_Generic J2
 U 1 1 5BF0CB92
 P 3775 3825
 F 0 "J2" H 3695 3500 50  0000 C CNN
@@ -204,10 +162,10 @@ LINE_IN
 Wire Wire Line
 	4025 4400 3975 4400
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L dimmer-2ch-rescue:Conn_01x03-Connector_Generic J3
 U 1 1 5BF108AF
 P 3775 4500
-F 0 "J?" H 3695 4175 50  0000 C CNN
+F 0 "J3" H 3695 4175 50  0000 C CNN
 F 1 "Conn_01x03" H 3695 4266 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3775 4500 50  0001 C CNN
 F 3 "~" H 3775 4500 50  0001 C CNN
@@ -218,4 +176,72 @@ Text Label 4025 4600 0    50   ~ 0
 NEUTRAL
 Wire Wire Line
 	4025 4600 3975 4600
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5BF18045
+P 2625 3800
+F 0 "J1" H 2545 3375 50  0000 C CNN
+F 1 "Conn_01x04" H 2545 3466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2625 3800 50  0001 C CNN
+F 3 "~" H 2625 3800 50  0001 C CNN
+	1    2625 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L dimmer-2ch-rescue:GND-power #PWR0101
+U 1 1 5BF1810D
+P 2875 3900
+F 0 "#PWR0101" H 2875 3650 50  0001 C CNN
+F 1 "GND" V 2825 3750 50  0000 C CNN
+F 2 "" H 2875 3900 50  0001 C CNN
+F 3 "" H 2875 3900 50  0001 C CNN
+	1    2875 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dimmer-2ch-rescue:GND-power #PWR0110
+U 1 1 5BF1891F
+P 2875 3800
+F 0 "#PWR0110" H 2875 3550 50  0001 C CNN
+F 1 "GND" V 2825 3650 50  0000 C CNN
+F 2 "" H 2875 3800 50  0001 C CNN
+F 3 "" H 2875 3800 50  0001 C CNN
+	1    2875 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2825 3800 2875 3800
+Wire Wire Line
+	2825 3900 2875 3900
+Text Label 2900 3600 0    50   ~ 0
+5V
+Wire Wire Line
+	2900 3600 2825 3600
+Text Label 2900 3700 0    50   ~ 0
+5V
+Wire Wire Line
+	2900 3700 2825 3700
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 5BF1B073
+P 3775 2625
+F 0 "J4" H 3695 2200 50  0000 C CNN
+F 1 "Conn_01x05" H 3695 2291 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3775 2625 50  0001 C CNN
+F 3 "~" H 3775 2625 50  0001 C CNN
+	1    3775 2625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 2625 8575 2625
+Wire Wire Line
+	8575 3750 8600 3750
+Wire Wire Line
+	10400 3750 10375 3750
+Wire Wire Line
+	10450 2625 10425 2625
+Wire Wire Line
+	9200 2625 9700 2625
+Wire Wire Line
+	9225 3750 9650 3750
 $EndSCHEMATC

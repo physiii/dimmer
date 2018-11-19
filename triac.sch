@@ -141,7 +141,7 @@ F 0 "R4" H 6900 3250 50  0000 L CNN
 F 1 "R_27" H 6900 3175 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6780 3225 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ2R2V/P2.2GCT-ND/282413" V 6930 3225 50  0001 C CNN
-F 4 "ERJ-3GEYJ2R2V" V 7030 3325 60  0001 C CNN "Part Number"
+F 4 "ERJ-3GEYJ270V" V 7030 3325 60  0001 C CNN "Part Number"
 	1    6850 3225
 	1    0    0    -1  
 $EndComp
@@ -197,7 +197,7 @@ F 0 "R2" V 5375 3100 50  0000 L CNN
 F 1 "R_27" V 5300 3050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5305 3150 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ2R2V/P2.2GCT-ND/282413" V 5455 3150 50  0001 C CNN
-F 4 "ERJ-3GEYJ2R2V" V 5555 3250 60  0001 C CNN "Part Number"
+F 4 "ERJ-3GEYJ270V" V 5555 3250 60  0001 C CNN "Part Number"
 	1    5375 3150
 	0    1    1    0   
 $EndComp

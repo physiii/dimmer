@@ -1,0 +1,13 @@
+Reference Type, Quantity, Reference, Value, Footprint, Datasheet, Part Number
+"C","2","C1,C3,","C_10nF","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://www.digikey.com/product-detail/en/tdk-corporation/CGA3E1X7R1C105M080AC/445-12540-1-ND/3954206","CL10B105KP8NNNC"
+"C","2","C2,C4,","C_0.1uF","Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://www.digikey.com/product-detail/en/tdk-corporation/C1608X8R1H104K080AB/445-8818-1-ND/3248223","CL10F104ZO8NNNC"
+"D","2","D1,D2,","Q_TRIAC_A1A2G","Package_TO_SOT_SMD:TO-263-2","https://www.digikey.com/product-detail/en/ween-semiconductors/BTA225B-600B118/1740-1122-1-ND/2697063","BTA225B-600B,118"
+"J","2","J2,J3,","Conn_01x03","Connector_Wire:SolderWirePad_1x03_P7.62mm_Drill2.5mm","~"
+"J","1","J1,","Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~"
+"J","1","J4,","Conn_01x05","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~"
+"R","4","R4,R2,R13,R11,","R_27","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ2R2V/P2.2GCT-ND/282413","ERJ-3GEYJ270V"
+"R","4","R1,R3,R10,R12,","R_470","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://www.digikey.com/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203","RC0603FR-07470RL"
+"R","5","R5,R6,R7,R8,R9,","R_10k","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://www.digikey.com/product-detail/en/yageo/RC0603JR-0710KL/311-10KGRCT-ND/729647","MCT06030C1002FP500"
+"U","2","U1,U4,","ACS712xLCTR-30A","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en"
+"U","1","U3,","H11AA1","Package_DIP:DIP-6_W8.89mm_SMDSocket_LongPads","https://www.onsemi.com/pub/Collateral/H11AA4M-D.pdf"," H11AA1SM"
+"U","2","U2,U5,","MOC3052M","Package_DIP:SMDIP-6_W9.53mm_Clearance8mm","http://www.fairchildsemi.com/ds/MO/MOC3052M.pdf"," MOC3052SM"
